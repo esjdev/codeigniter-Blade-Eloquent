@@ -1,5 +1,10 @@
 ## Version Codeigniter 3.1.~
 
+After "Git clone", you execute "composer install"
+```sql
+composer install
+```
+
 ### Usage Eloquent (example)
 
 <b>- DATABASE TEST (MYSQL) (NAME: users)</b>
