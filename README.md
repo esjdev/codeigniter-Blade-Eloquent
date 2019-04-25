@@ -1,3 +1,5 @@
+### Version Codeigniter 3.1.~
+
 ### Installation via composer.json
 create a composer.json and then execute "composer install"
 
