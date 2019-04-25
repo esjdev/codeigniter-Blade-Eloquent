@@ -1,26 +1,4 @@
-### Version Codeigniter 3.1.~
-
-### Installation via composer.json
-create a composer.json and then execute "composer install"
-
-```json
-{
-	"require": {
-		"illuminate/view": "^5.4",
-		"illuminate/events": "^5.4",
-		"illuminate/database": "^5.4",
-		"philo/laravel-blade": "^3.1"
-	},
-	"autoload": {
-		"psr-4": {
-			"App\\Core\\":"application/core"
-		},
-		"classmap": [
-			"application/models"
-		 ]
-	}
-}
-```
+#### Version Codeigniter 3.1.~
 
 ### Usage Eloquent (example)
 
