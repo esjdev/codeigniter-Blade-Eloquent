@@ -22,7 +22,7 @@ create a composer.json and then execute "composer install"
 
 ### Usage Eloquent (example)
 
-<b>- DATABASE TEST (MYSQL)</b>
+<b>- DATABASE TEST (MYSQL) (NAME: users)</b>
 
 ```sql
 CREATE TABLE `users` (
@@ -39,7 +39,7 @@ INSERT INTO `users` (`id`, `username`, `password`, `email`) VALUES
 (4, 'test_04', 'test123', 'test_04@test.com');
 ```
 
-<b>- Model</b> (local: application/models)
+<b>- Model</b> (local: application/models - name: User.php)
 
 ```php
 <?php
@@ -53,7 +53,7 @@ class User extends Model {
 }
 ```
 
-<b>- Controller</b> (local: application/controllers)
+<b>- Controller</b> (local: application/controllers - name: Home.php)
 
 ```php
 <?php
@@ -77,7 +77,7 @@ class Home extends BladeController {
 }
 ```
 
-<b>- View</b> (local: application/views)
+<b>- View</b> (local: application/views - name: home.blade.php)
 
 ```html
     @foreach ($users as $value)
