@@ -1,4 +1,4 @@
-#### Version Codeigniter 3.1.~
+## Version Codeigniter 3.1.~
 
 ### Usage Eloquent (example)
 
