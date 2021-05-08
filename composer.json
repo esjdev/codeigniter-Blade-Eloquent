@@ -2,7 +2,7 @@
 	"require": {
 		"illuminate/view": "^5.4",
 		"illuminate/events": "^5.4",
-		"illuminate/database": "^5.4",
+		"illuminate/database": "6.20.26",
 		"philo/laravel-blade": "^3.1"
 	},
 	"autoload": {
